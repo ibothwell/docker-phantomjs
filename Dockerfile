@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM clojure
 
 # Install runtime dependencies
 RUN apt-get update \
